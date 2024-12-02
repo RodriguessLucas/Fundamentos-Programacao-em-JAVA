@@ -11,7 +11,6 @@ public class Questao01{
         System.out.println("Digite um valor inteiro:");
         int valor = scanner.nextInt();
         scanner.close();
-        
         return valor;
     }
 
