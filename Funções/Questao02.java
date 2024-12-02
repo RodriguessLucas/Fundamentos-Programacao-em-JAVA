@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Questao02 {
-    public static void main(String args[]){
+    public static void main(String[] args){
         double usd = receberValorUSD();
         double brl = cambio(usd);
         printarConversao(usd, brl); 
